@@ -18,7 +18,7 @@ We implemented and compared 5 different reinforcement learning algorithms to pla
 4. **REINFORCE** - Policy gradient method
 5. **MCTS** - Monte Carlo Tree Search
 
-The goal is to train AI agents that can play Tic-Tac-Toe well and compare which method works best.
+The goal is to train AI agents to play Tic-Tac-Toe well and compare which method works best.
 
 ---
 
@@ -218,3 +218,4 @@ See `requirements.txt` for complete list.
 2. Mnih et al. - Deep Q-Learning (Nature 2015)
 3. PettingZoo documentation
 4. PyTorch documentation
+
