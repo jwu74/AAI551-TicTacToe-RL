@@ -25,7 +25,7 @@ The goal is to train AI agents to play Tic-Tac-Toe well and compare which method
 ## Algorithm Overview
 
 ### 1. Q-Learning (Off-Policy Temporal Difference)
-Q-Learning is a value-based method that learns optimal Q-values Q(s,a) using a table. It updates using the maximum Q-value of the next state, making it an off-policy algorithm.
+Q-Learning is a value-based method that learns optimal Q-values Q(s,a) using a table. It will update using the maximum Q-value of the next state, making it an off-policy algorithm.
 
 **Key Features:**
 - Stores Q-values in a dictionary (state-action table)
@@ -218,4 +218,5 @@ See `requirements.txt` for complete list.
 2. Mnih et al. - Deep Q-Learning (Nature 2015)
 3. PettingZoo documentation
 4. PyTorch documentation
+
 
