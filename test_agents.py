@@ -56,7 +56,7 @@ def test_agent(agent, agent_name, num_games=1000, verbose=True):
     if hasattr(agent, 'epsilon') and agent_name != 'MCTS':
         agent.epsilon = original_epsilon
 
-    # Calculate rates
+    # Calculate the rates
     win_rate = wins / num_games
     draw_rate = draws / num_games
     loss_rate = losses / num_games
@@ -203,3 +203,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
